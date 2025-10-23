@@ -64,6 +64,7 @@
 class Animal:
     def  sound(self):
         print("Animals make sound",self.sound)
+class Dog(Animal):
     def  sound(self):
          print("Dog barks",self.sound)
 a=Animal()
