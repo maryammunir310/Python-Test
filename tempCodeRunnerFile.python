@@ -1,0 +1,6 @@
+
+# a=input("enter the letter:")
+# if a in ['a','e','i','o','u','A','E','I','O','U']:
+#     print("the given letter is vowel")
+# else:
+#     print("the given letter is consonant")

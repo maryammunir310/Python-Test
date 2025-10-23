@@ -1,0 +1,70 @@
+# #17)
+# num=int(input("Enter the number "))
+# if num%2==0:
+#     print("the number is even")
+# else:
+#     print("the number is odd")
+    
+    
+# #16)
+# mylist=[1,2,3,4,5]
+# target=5
+# if target in mylist:
+#     print(" the max number is found ",target)
+    
+    
+# #19)
+# import pandas as pd
+# df=pd.read_csv("students.csv")
+# print(df.head(3))
+
+#18)
+# a=input("enter the letter:")
+# if a in ['a','e','i','o','u','A','E','I','O','U']:
+#     print("the given letter is vowel")
+# else:
+#     print("the given letter is consonant")
+
+#20) 
+# class STUDENT:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+# name=STUDENT("Sara",20)
+# print(name.name)
+# print(name.age)
+
+# #21)
+# class Car:
+#     def __init__(self,brand,year):
+#         self.brand=brand
+#         self.year=year
+# brand=input("enter the brand:")
+# year=int(input("enter the year:"))
+# mycar=Car(brand,year)
+# print(mycar.brand)
+# print(mycar.year)
+
+
+#23)
+# import numpy as np
+# marks={
+#     "Math":90,
+#     "Urdu":65,
+#     "English":74,
+#     "physics":88
+# }
+# print(marks)
+# a=np.array(list(marks.values()))
+# print(a)
+# print("the mean of the marks is ",np.mean(a))
+# print("the median of the marks is ",np.median(a))
+
+#22)
+class Animal:
+    def __init__(self, Sound):
+        self.sound=Sound
+        print("Animals make sound",self.sound)
+class Dog(Animal):
+    def __init__(self,Sound):
+        print("Dog barks",Sound)
