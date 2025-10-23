@@ -62,9 +62,11 @@
 
 #22)
 class Animal:
-    def __init__(self, Sound):
-        self.sound=Sound
+    def  sound(self):
         print("Animals make sound",self.sound)
-class Dog(Animal):
-    def __init__(self,Sound):
-        print("Dog barks",Sound)
+    def  sound(self):
+         print("Dog barks",self.sound)
+a=Animal()
+a.sound()
+d=Animal()
+d.sound()
